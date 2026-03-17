@@ -38,7 +38,7 @@ source venv/bin/activate   # для Linux/macOS
 pip install requests Pillow opencv-python apng numpy pyrlottie
 ```
 
-> **Примечание**: `pyrlottie` может потребовать компиляции. Если возникнут ошибки, установите дополнительно `librlottie-dev` (Ubuntu: `sudo apt install librlottie-dev`) или обратитесь к [документации pyrlottie](https://github.com/GramAddict/pyrlottie).
+> **Примечание**: `pyrlottie` может потребовать компиляции. Если возникнут ошибки, установите дополнительно `librlottie-dev` (Ubuntu: `sudo apt install librlottie-dev`) или обратитесь к [документации pyrlottie](https://github.com/FHPythonUtils/PyRlottie).
 
 ### 3. Получение токена бота Telegram
 1. Напишите [@BotFather](https://t.me/BotFather) в Telegram.
