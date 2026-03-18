@@ -54,7 +54,7 @@ export TELEGRAM_BOT_TOKEN="ваш_токен"
 
 ### Базовый запуск для одной ссылки
 ```bash
-python tg2fc.py --link "https://t.me/addstickers/НАЗВАНИЕ_ПАКА" --max-size 256
+python3 tg2fc.py --link "https://t.me/addstickers/НАЗВАНИЕ_ПАКА" --max-size 256
 ```
 На выходе получится файл `НАЗВАНИЕ_ПАКА.zip`.
 
@@ -66,7 +66,7 @@ https://t.me/addstickers/Pack2
 ```
 Затем выполните:
 ```bash
-python tg2fc.py --file links.txt --output ./my_packs
+python3 tg2fc.py --file links.txt --output ./my_packs
 ```
 
 ### Параметры
@@ -82,7 +82,7 @@ python tg2fc.py --file links.txt --output ./my_packs
 
 ### Пример с удалением чёрного фона
 ```bash
-python tg2fc.py --link "https://t.me/addstickers/Cheerful_Choco" --max-size 256 --remove-black-bg --black-threshold 40
+python3 tg2fc.py --link "https://t.me/addstickers/Cheerful_Choco" --max-size 256 --remove-black-bg --black-threshold 40
 ```
 
 ## 📂 Структура выходного ZIP
